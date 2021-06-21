@@ -1,0 +1,187 @@
+[Experiment Information]
+Name=Test
+Notes=
+Date=2021/04/01 19:29:29
+[Timings]
+Number Laser Pulses=1
+Pulse Rep Rate=15
+Q Switch Divide=1
+Delta T=100
+Laser Pulse Delay=855
+PIV Cam. Exposure Time=860
+PLIF Cam. Exposure Time=860
+PLIF Exposure Units=
+External Trigger=0
+Trigger Delay=0
+PLIF Cam. Trigger Delay=0
+Trigger Timeout=5000
+Captures Per Trigger=1
+Pulses per PLIF Cap=1
+PLIF Laser Pulses Cap=1
+PIV Shutter Delay=0.150000005960464
+PLIF Shutter Delay=1.40129846432482E-45
+PIV Shutter Open=0
+PLIF Shutter Open=0
+Gate Control=0
+Intensifier Gate Delay=395
+Intensifier Gate Width=10
+PIV Camera Frame Rate=800
+[DualImageForm]
+Status Bar Visible=1
+Status Bar Flip Y=1
+Size Mode=FitAlways
+Vector Color=-7278960
+Vector Scale=20
+Vector Skip=1
+Default Delta T=10
+Auto Vectors=0
+Auto Particles=0
+Default Sequence Time=68.9655151367188
+Override Sequence Time=0
+Grid Color=-32944
+Grid X=32
+Grid Y=32
+GSV Particle Color=-1597928
+GSV Particle Scale=1
+GSV Particle Style=Outline
+GSV Display Only Matched Pairs=1
+GSV Show Text=0
+GSV Show Vectors=1
+GSV Text Color=-2894893
+GSV Vector Color=-1597928
+GSV Vector Scale=1
+VectorColorGood=-7278960
+VectorColorBad=-65536
+VectorColorInterpolated=-256
+VectorStyle=Magnitude
+ShowGoodVectors=1
+ShowBadVectors=1
+ShowInterpolatedVectors=1
+[ROI Tab]
+Rect X=100
+Rect Y=100
+Rect Width=100
+Rect Height=100
+Line Vert=1
+Line RowCol=100
+Ellipse Rect X=100
+Ellipse Rect Y=100
+Ellipse Rect Width=100
+Ellipse Rect Height=100
+[Spray Tab]
+Circle State=1
+Radii State=0
+Circle Count=4
+Radii Count=4
+X Offset=0
+Y Offset=0
+Background Threshold=1
+Edge Threshold=0
+Points To Fit=100
+Points To Ignore=0
+[Setting Files]
+ROI=
+Macro=None
+Capture Setup=
+[Processing Tab]
+Application=PIV
+Processing Mask=None
+Region Of Interest=None
+Calibration=None
+Preprocess=None
+Kernel Process=None
+Post Process=None
+Process Number=1
+[Capture]
+Capture Type=PIV
+PIV Frame Mode=Straddle
+Capture Mode=Sequence
+Exposure Mode=Free
+Save Mode=To RAM
+Software Trigger Mode=Disabled
+Display Sequence To Disk=1
+[Sequence Mode]
+Number to Capture=1
+Starting Number=3
+Post Trigger Captures=0
+[Laser Power]
+LaserA Low=825
+LaserA Medium=775
+LaserA High=670
+LaserB Low=825
+LaserB Medium=775
+LaserB High=670
+LaserA=0
+LaserB=0
+[Capture Name]
+Traverse Number=0
+Delay Number=0
+[GUI Traverse]
+Auto Mode=0
+X=0
+Y=0
+Z=0
+[GUI Capture AOI]
+PIV Enabled=0
+PIV X=0
+PIV Y=0
+PIV Width=100
+PIV Height=100
+PLIF Enabled=0
+PLIF X=0
+PLIF Y=0
+PLIF Width=100
+PLIF Height=100
+[Component]
+CaptureMode=1
+[Synchronizer610035]
+CommPort=4
+Flashlamp_Hz=15.000000
+ExternalTrigTimeout_Ms=5000.000000
+CameraTriggerDelay_Ns=0
+CameraTrigger2Delay_Ns=0
+FrameBDelay_Ns=33333333
+PulseDelay_Ns=855000
+DeltaT_Ns=100000
+QswitchADelay_Ns=0
+QswitchBDelay_Ns=0
+QSwitchDividedBy=1
+ExtCapturesPerTrig=1
+PulsesPerPLIFCapture=1
+CaptureDelay=0
+ForceQSwitch=0
+ExternalEnable=0
+ExternalEdgeRising=1
+PolarityBits=424976
+ExternalThreshold=3.000000
+[Camera Phantom M340#1]
+ExposureDuration=860.000000
+AreaOfInterestLeft=0
+AreaOfInterestTop=0
+AreaOfInterestRight=2559
+AreaOfInterestBottom=1599
+width=2560
+height=1600
+flipImage=0
+TapReadoutCount=2
+[DataSource]
+ExposeMode=0
+VerticalBinning=1
+HorizontalBinning=1
+Burst Mode=0
+[Camera Phantom M340#2]
+ExposureDuration=860.000000
+AreaOfInterestLeft=0
+AreaOfInterestTop=0
+AreaOfInterestRight=2559
+AreaOfInterestBottom=1599
+width=2560
+height=1600
+flipImage=0
+TapReadoutCount=2
+[Frame Grab Phantom#0]
+AreaOfInterestLeft=0
+AreaOfInterestTop=0
+AreaOfInterestRight=2559
+AreaOfInterestBottom=1599
+Timeout=5000
